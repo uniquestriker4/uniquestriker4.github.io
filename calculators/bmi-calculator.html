@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>BMI Calculator | Body Mass Index</title>
-<meta name="description" content="Calculate BMI and know your health category.">
+<title>BMI Calculator</title>
+<meta name="description" content="Calculate BMI and understand your health category.">
 <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-<header><h1>BMI Calculator</h1></header>
+
+<header>
+  <h1>BMI Calculator</h1>
+  <nav><a href="../index.html">Home</a></nav>
+</header>
+
 <div class="container">
-<input id="w" placeholder="Weight (kg)">
-<input id="h" placeholder="Height (cm)">
-<button onclick="bmi()">Calculate BMI</button>
-<p id="res"></p>
+  <p>BMI calculator helps assess body weight category.</p>
 
-<p>BMI indicates body weight category.</p>
+  <input id="weight" placeholder="Weight (kg)">
+  <input id="height" placeholder="Height (cm)">
+  <button onclick="calculateBMI()">Calculate BMI</button>
+  <p id="result"></p>
 </div>
-<footer>© 2026 Student Calculator Hub</footer>
-<script src="../script.js">
 
-</script>
+<footer>© 2026 Student Calculator Hub</footer>
+<script src="../script.js"></script>
 </body>
 </html>
