@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>JEE Percentile vs Rank Calculator</title>
+<title>JEE Rank Estimator</title>
 <meta name="description" content="Estimate JEE rank from percentile.">
 <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-<header><h1>JEE Rank Estimator</h1></header>
-<div class="container">
-<input id="p" placeholder="Percentile">
-<button onclick="rank()">Estimate Rank</button>
-<p id="res"></p>
 
-<p>Rank estimation is approximate.</p>
+<header>
+  <h1>JEE Rank Estimator</h1>
+  <nav><a href="../index.html">Home</a></nav>
+</header>
+
+<div class="container">
+  <p>This calculator estimates JEE rank range based on percentile.</p>
+
+  <input id="percentile" placeholder="Enter Percentile">
+  <button onclick="jeeRank()">Estimate Rank</button>
+  <p id="result"></p>
 </div>
+
 <footer>© 2026 Student Calculator Hub</footer>
-<script src="../script.js">
-</script>
+<script src="../script.js"></script>
 </body>
 </html>
