@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Percentage to CGPA Calculator | Free Tool</title>
-<meta name="description" content="Convert percentage to CGPA instantly using standard formula.">
+<title>Percentage to CGPA Calculator</title>
+<meta name="description" content="Convert percentage to CGPA easily for college forms.">
 <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-<header><h1>Percentage to CGPA Calculator</h1></header>
+
+<header>
+  <h1>Percentage to CGPA Calculator</h1>
+  <nav><a href="../index.html">Home</a></nav>
+</header>
+
 <div class="container">
-<input type="number" id="perc" placeholder="Enter Percentage">
-<button onclick="calc()">Convert</button>
-<p id="res"></p>
+  <p>Some colleges require CGPA instead of percentage. This tool converts it instantly.</p>
 
-<p>This calculator converts percentage to CGPA using the commonly accepted formula. Universities may vary slightly.</p>
-<p><b>Formula:</b> CGPA = Percentage ÷ 9.5</p>
+  <input id="perc" type="number" placeholder="Enter Percentage">
+  <button onclick="percentageToCgpa()">Convert</button>
+  <p id="result"></p>
+
+  <p><b>Formula:</b> CGPA = Percentage ÷ 9.5</p>
 </div>
-<footer>© 2026 Student Calculator Hub</footer>
-<script src="../script.js">
 
-</script>
+<footer>© 2026 Student Calculator Hub</footer>
+<script src="../script.js"></script>
 </body>
 </html>
