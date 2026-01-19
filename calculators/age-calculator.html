@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Age Calculator | Calculate Age from DOB</title>
-<meta name="description" content="Calculate exact age in years, months and days.">
+<title>Age Calculator</title>
+<meta name="description" content="Calculate exact age from date of birth.">
 <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-<header><h1>Age Calculator</h1></header>
+
+<header>
+  <h1>Age Calculator</h1>
+  <nav><a href="../index.html">Home</a></nav>
+</header>
+
 <div class="container">
-<input type="date" id="dob">
-<button onclick="age()">Calculate Age</button>
-<p id="res"></p>
+  <p>This calculator finds your exact age based on date of birth.</p>
 
-<p>Useful for exams, forms and official documents.</p>
+  <input id="dob" type="date">
+  <button onclick="calculateAge()">Calculate Age</button>
+  <p id="result"></p>
 </div>
-<footer>© 2026 Student Calculator Hub</footer>
-<script src="../script.js">
 
-</script>
+<footer>© 2026 Student Calculator Hub</footer>
+<script src="../script.js"></script>
 </body>
 </html>
