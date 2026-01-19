@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>SGPA Calculator for Engineering</title>
-<meta name="description" content="Calculate SGPA easily using grades and credits.">
+<title>SGPA Calculator</title>
+<meta name="description" content="Calculate semester SGPA for engineering students.">
 <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-<header><h1>SGPA Calculator</h1></header>
+
+<header>
+  <h1>SGPA Calculator</h1>
+  <nav><a href="../index.html">Home</a></nav>
+</header>
+
 <div class="container">
-<p>Enter grade points and credits manually (basic version).</p>
-<p>Advanced version coming soon.</p>
+  <p>Enter your SGPA to keep a record of semester performance.</p>
+
+  <input id="sgpa" placeholder="Enter SGPA">
+  <button onclick="calculateSGPA()">Submit</button>
+  <p id="result"></p>
 </div>
+
 <footer>© 2026 Student Calculator Hub</footer>
+<script src="../script.js"></script>
 </body>
 </html>
