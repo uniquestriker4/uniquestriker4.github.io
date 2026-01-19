@@ -1,41 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>CGPA to Percentage Calculator | Free Online Tool</title>
-  <meta name="description" content="Convert CGPA to percentage instantly using the standard formula.">
-  <link rel="stylesheet" href="../style.css">
+<title>CGPA to Percentage Calculator</title>
+<meta name="description" content="Convert CGPA to percentage instantly using standard formula.">
+<link rel="stylesheet" href="../style.css">
 </head>
 <body>
 
 <header>
   <h1>CGPA to Percentage Calculator</h1>
+  <nav><a href="../index.html">Home</a></nav>
 </header>
 
 <div class="container">
-  <input type="number" id="cgpa" placeholder="Enter CGPA" step="0.01">
-  <button onclick="convert()">Convert</button>
-  <p id="result"></p>
+  <p>This calculator helps students convert CGPA to percentage using the commonly accepted formula.</p>
 
-  <h2>How CGPA to Percentage is Calculated</h2>
-  <p>
-    CGPA to percentage conversion is commonly required during admissions, placements,
-    and scholarship applications. The standard formula multiplies CGPA by 9.5.
-  </p>
+  <input id="cgpa" type="number" step="0.01" placeholder="Enter CGPA">
+  <button onclick="cgpaToPercentage()">Convert</button>
+  <p id="result"></p>
 
   <h3>Formula Used</h3>
   <p>Percentage = CGPA × 9.5</p>
-
-  <h3>FAQs</h3>
-  <p><strong>Is this formula accurate?</strong>  
-  It is widely accepted but may vary by university.</p>
 </div>
 
-<footer>
-  © 2026 Student Calculator Hub
-</footer>
-
-<script src="../script.js">
-</script>
-
+<footer>© 2026 Student Calculator Hub</footer>
+<script src="../script.js"></script>
 </body>
 </html>
