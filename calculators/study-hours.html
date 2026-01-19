@@ -2,19 +2,25 @@
 <html>
 <head>
 <title>Study Hours Calculator</title>
-<meta name="description" content="Track daily and weekly study hours.">
+<meta name="description" content="Track daily study hours easily.">
 <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-<header><h1>Study Hours Calculator</h1></header>
-<div class="container">
-<input id="h" placeholder="Hours studied today">
-<button onclick="calc()">Calculate</button>
-<p id="res"></p>
-</div>
-<footer>© 2026 Student Calculator Hub</footer>
-<script src="../script.js">
 
-</script>
+<header>
+  <h1>Study Hours Calculator</h1>
+  <nav><a href="../index.html">Home</a></nav>
+</header>
+
+<div class="container">
+  <p>This calculator helps you track daily study time.</p>
+
+  <input id="hours" placeholder="Hours Studied Today">
+  <button onclick="studyHours()">Calculate</button>
+  <p id="result"></p>
+</div>
+
+<footer>© 2026 Student Calculator Hub</footer>
+<script src="../script.js"></script>
 </body>
 </html>
