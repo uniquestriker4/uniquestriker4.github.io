@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Percentage to CGPA Calculator</title>
-<meta name="description" content="Convert percentage to CGPA easily for college forms.">
-<link rel="stylesheet" href="../style.css">
+  <title>Percentage to CGPA Calculator (2026)</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Convert percentage to CGPA instantly using the standard formula. Accurate percentage to CGPA calculator for engineering and college students.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 
@@ -13,16 +15,66 @@
 </header>
 
 <div class="container">
-  <p>Some colleges require CGPA instead of percentage. This tool converts it instantly.</p>
 
-  <input id="perc" type="number" placeholder="Enter Percentage">
+  <p>
+    This Percentage to CGPA calculator helps students convert their academic
+    percentage into CGPA easily. Many colleges and universities follow the CGPA
+    grading system, while students often receive marks in percentage format.
+    This tool simplifies the conversion process and avoids manual calculation errors.
+  </p>
+
+  <input id="perc" type="number" step="0.01" placeholder="Enter Percentage">
   <button onclick="percentageToCgpa()">Convert</button>
   <p id="result"></p>
 
-  <p><b>Formula:</b> CGPA = Percentage ÷ 9.5</p>
+  <h2>Percentage to CGPA Formula</h2>
+  <p>
+    The most commonly used formula to convert percentage into CGPA is:
+  </p>
+  <p><strong>CGPA = Percentage ÷ 9.5</strong></p>
+
+  <h2>Example Calculation</h2>
+  <p>
+    If a student has scored <strong>76%</strong>, then the CGPA will be:
+    <br>
+    76 ÷ 9.5 = <strong>8.0 CGPA</strong>
+  </p>
+
+  <h2>Why Percentage to CGPA Conversion Is Needed</h2>
+  <p>
+    Many universities, especially engineering colleges, require CGPA values for
+    admissions, semester evaluations, internships, and placements. Converting
+    percentage to CGPA ensures compatibility with such requirements and helps
+    students fill academic forms correctly.
+  </p>
+
+  <h2>Accuracy of This Calculator</h2>
+  <p>
+    This calculator uses the standard conversion method followed by most Indian
+    universities. However, some institutions may use different formulas, so it is
+    always recommended to check official guidelines.
+  </p>
+
+  <h2>FAQs</h2>
+  <p><strong>Is this formula accepted everywhere?</strong><br>
+  Most universities accept this formula, but a few may have their own conversion rules.</p>
+
+  <p><strong>Can I use this CGPA for placements?</strong><br>
+  Yes, this calculated CGPA is generally accepted for resume screening and applications.</p>
+
+  <h3>Related Calculators</h3>
+  <ul>
+    <li><a href="cgpa-to-percentage.html">CGPA to Percentage Calculator</a></li>
+    <li><a href="sgpa-calculator.html">SGPA Calculator</a></li>
+    <li><a href="study-hours.html">Study Hours Calculator</a></li>
+  </ul>
+
 </div>
 
-<footer>© 2026 Student Calculator Hub</footer>
+<footer>
+  © 2026 Student Calculator Hub
+</footer>
+
 <script src="../script.js"></script>
 </body>
 </html>
