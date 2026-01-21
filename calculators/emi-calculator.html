@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>EMI Calculator</title>
-<meta name="description" content="Calculate EMI for home, car and personal loans.">
-<link rel="stylesheet" href="../style.css">
+  <title>EMI Calculator | Monthly Loan EMI Calculator</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Calculate EMI for home loan, car loan, or personal loan using this free EMI calculator. Plan your loan repayments easily.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 
@@ -13,16 +15,52 @@
 </header>
 
 <div class="container">
-  <p>EMI calculator helps you plan loan repayment by calculating monthly installment.</p>
+
+  <p>
+    EMI (Equated Monthly Installment) is the fixed amount you pay every month
+    to repay a loan. This EMI calculator helps you calculate your monthly EMI
+    based on loan amount, interest rate, and tenure. It is useful for home loans,
+    car loans, and personal loans.
+  </p>
 
   <input id="loan" placeholder="Loan Amount">
   <input id="rate" placeholder="Annual Interest Rate (%)">
   <input id="months" placeholder="Loan Tenure (months)">
   <button onclick="calculateEMI()">Calculate EMI</button>
   <p id="result"></p>
+
+  <h2>EMI Formula</h2>
+  <p>
+    EMI is calculated using the following formula:
+  </p>
+  <p>
+    <strong>EMI = [P × R × (1+R)^N] / [(1+R)^N − 1]</strong>
+  </p>
+
+  <h2>Example EMI Calculation</h2>
+  <p>
+    For a loan of ₹5,00,000 at an interest rate of 10% for 60 months,
+    the EMI will be approximately ₹10,624.
+  </p>
+
+  <h2>Why EMI Calculation Is Important</h2>
+  <p>
+    Calculating EMI helps you understand your monthly financial commitment
+    before taking a loan. It allows better budgeting and prevents financial stress.
+  </p>
+
+  <h3>Related Calculators</h3>
+  <ul>
+    <li><a href="sip-calculator.html">SIP Calculator</a></li>
+    <li><a href="age-calculator.html">Age Calculator</a></li>
+  </ul>
+
 </div>
 
-<footer>© 2026 Student Calculator Hub</footer>
+<footer>
+  © 2026 Student Calculator Hub
+</footer>
+
 <script src="../script.js"></script>
 </body>
 </html>
