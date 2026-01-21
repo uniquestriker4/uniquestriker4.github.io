@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>BMI Calculator</title>
-<meta name="description" content="Calculate BMI and understand your health category.">
-<link rel="stylesheet" href="../style.css">
+  <title>BMI Calculator | Body Mass Index Calculator</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Calculate your BMI (Body Mass Index) using height and weight. Understand your health category instantly.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 
@@ -13,15 +15,49 @@
 </header>
 
 <div class="container">
-  <p>BMI calculator helps assess body weight category.</p>
+
+  <p>
+    BMI (Body Mass Index) is a measurement that helps determine whether a person
+    has a healthy body weight. This BMI calculator uses your height and weight
+    to calculate BMI and give a general health indication.
+  </p>
 
   <input id="weight" placeholder="Weight (kg)">
   <input id="height" placeholder="Height (cm)">
   <button onclick="calculateBMI()">Calculate BMI</button>
   <p id="result"></p>
+
+  <h2>BMI Formula</h2>
+  <p>
+    <strong>BMI = Weight (kg) ÷ Height² (m²)</strong>
+  </p>
+
+  <h2>BMI Categories</h2>
+  <ul>
+    <li>Underweight: BMI less than 18.5</li>
+    <li>Normal weight: BMI 18.5 – 24.9</li>
+    <li>Overweight: BMI 25 – 29.9</li>
+    <li>Obese: BMI 30 and above</li>
+  </ul>
+
+  <h2>Why BMI Matters</h2>
+  <p>
+    BMI helps identify potential health risks related to body weight. While it
+    is not a perfect measure, it is widely used for basic health assessment.
+  </p>
+
+  <h3>Related Calculators</h3>
+  <ul>
+    <li><a href="age-calculator.html">Age Calculator</a></li>
+    <li><a href="study-hours.html">Study Hours Calculator</a></li>
+  </ul>
+
 </div>
 
-<footer>© 2026 Student Calculator Hub</footer>
+<footer>
+  © 2026 Student Calculator Hub
+</footer>
+
 <script src="../script.js"></script>
 </body>
 </html>
