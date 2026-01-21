@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>SIP Calculator</title>
-<meta name="description" content="Calculate future value of SIP investments.">
-<link rel="stylesheet" href="../style.css">
+  <title>SIP Calculator | Monthly SIP Returns Calculator</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Calculate SIP returns easily using monthly investment, interest rate and duration. Free SIP calculator for Indian investors.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 
@@ -13,13 +15,42 @@
 </header>
 
 <div class="container">
-  <p>SIP calculator estimates the future value of your monthly investments.</p>
 
-  <input id="amount" placeholder="Monthly SIP Amount">
-  <input id="rate" placeholder="Expected Annual Return (%)">
-  <input id="years" placeholder="Investment Duration (years)">
-  <button onclick="calculateSIP()">Calculate Returns</button>
-  <p id="result"></p>
+<p>
+A SIP (Systematic Investment Plan) allows you to invest a fixed amount every month
+in mutual funds. This SIP calculator helps you estimate the future value of your
+investment based on monthly amount, expected return rate, and investment duration.
+</p>
+
+<input id="amount" placeholder="Monthly SIP Amount (₹)">
+<input id="rate" placeholder="Expected Annual Return (%)">
+<input id="years" placeholder="Investment Duration (Years)">
+<button onclick="calculateSIP()">Calculate SIP Returns</button>
+<p id="result"></p>
+
+<h2>SIP Formula</h2>
+<p>
+SIP future value is calculated using compound interest, considering monthly investments.
+</p>
+
+<h2>Example</h2>
+<p>
+If you invest ₹5,000 per month for 10 years at 12% annual return, the total value
+will be approximately ₹11–12 lakhs.
+</p>
+
+<h2>Why SIP Is Popular</h2>
+<p>
+SIP promotes disciplined investing and reduces market timing risk. It is suitable
+for long-term financial goals like education, retirement, and wealth creation.
+</p>
+
+<h3>Related Calculators</h3>
+<ul>
+  <li><a href="emi-calculator.html">EMI Calculator</a></li>
+  <li><a href="age-calculator.html">Age Calculator</a></li>
+</ul>
+
 </div>
 
 <footer>© 2026 Student Calculator Hub</footer>
